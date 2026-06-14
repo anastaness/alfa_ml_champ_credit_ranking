@@ -1,0 +1,32 @@
+# Данные 
+data/*.pq
+data/*.parquet
+data/*.csv
+!data/.gitkeep
+
+# Сабмиты 
+submissions/*.csv
+submissions/*.txt
+!submissions/.gitkeep
+
+# Jupyter 
+.ipynb_checkpoints/
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Скрытые файлы
+*.log
+.DS_Store
+Thumbs.db
